@@ -1,0 +1,17 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background-color: rgb(16, 18, 8);
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: inherit;
+  font-size: inherit;
+  color: rgb(235, 255, 105);
+}
+@font-face {
+  font-family: "myFont";
+  src: url("/assets/fonts/Roboto-Regular.ttf") format("truetype");
+  font-display: swap;
+}

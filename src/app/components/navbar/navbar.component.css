@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline;
+  font-family: "abc-normal";
+}
+a {
+  display: inline;
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  height: var(--header-height);
+  display: flex;
+  align-items: center;
+  padding: 1rem 6em;
+  position: fixed;
+  z-index: 101;
+  width: 100vw;
+  user-select: none;
+  justify-content: space-between;
+
+  overflow: hidden;
+}
+
+.brand {
+  width: fit-content;
+  text-transform: capitalize;
+  overflow: hidden;
+  display: inline-flex;
+}
+
+.box {
+  overflow: hidden;
+  display: flex;
+}
+
+.a {
+  margin-right: 1.9rem;
+}
+
+.cp {
+  overflow: hidden;
+  justify-self: flex-end;
+}
+
+.h3 {
+  font-size: 1.7rem;
+}
