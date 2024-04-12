@@ -1,5 +1,5 @@
 .text {
-  width: 80%;
+  width: 90%;
   display: flex;
 
   justify-content: flex-end;
@@ -7,10 +7,9 @@
 
 .box {
   display: flex;
-  flex-direction: row;
+  flex-flow: nowrap;
   align-items: flex-start;
   justify-content: space-evenly;
-  gap: 4em;
 }
 
 .left {
@@ -18,28 +17,39 @@
   width: 40%;
 }
 .right {
-  width: 60%;
+  width: 50%;
 }
 
 .container {
-  width: 100%;
+  width: 43%;
 }
 
 .item {
-  padding-top: 2em;
+  padding-top: 1.5em;
 }
 
-.item .order {
+.item .list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 0.7em;
 }
 
 .item::after {
   content: "";
   height: 1px;
   width: 100%;
-  margin-top: 5px;
+  margin-top: 15px;
   background-color: rgb(235, 255, 105);
   display: block;
+}
+
+.item-img {
+  padding-top: 3em;
+  display: flex;
+  justify-content: center;
+}
+
+.img {
+  width: 95%;
 }
