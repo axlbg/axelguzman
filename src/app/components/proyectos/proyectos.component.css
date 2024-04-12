@@ -1,0 +1,45 @@
+.text {
+  width: 80%;
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 4em;
+}
+
+.left {
+  padding-top: 2em;
+  width: 40%;
+}
+.right {
+  width: 60%;
+}
+
+.container {
+  width: 100%;
+}
+
+.item {
+  padding-top: 2em;
+}
+
+.item .order {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item::after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  margin-top: 5px;
+  background-color: rgb(235, 255, 105);
+  display: block;
+}
