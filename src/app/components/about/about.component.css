@@ -1,9 +1,8 @@
 .about {
   display: flex;
   flex-flow: nowrap;
-  align-items: start;
-  justify-content: space-evenly;
-  padding-top: 6em;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .container {
@@ -11,8 +10,16 @@
 
   display: flex;
   flex-flow: column;
-  align-items: start;
+  align-items: flex-start;
 
   padding: 0;
   margin: 0;
+}
+
+.borderbox {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-top: 6em;
 }

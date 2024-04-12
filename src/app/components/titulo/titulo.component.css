@@ -8,9 +8,18 @@
 
   position: relative;
 
-  padding-top: 12em;
+  padding-top: 10em;
+  padding-bottom: 10em;
 }
 
 .h1 {
   margin: -0.19em;
+}
+
+.borderbox {
+  display: flex;
+  flex-flow: nowrap;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 3em;
 }
