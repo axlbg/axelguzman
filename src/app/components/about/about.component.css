@@ -28,3 +28,11 @@
 .marginbot {
   margin-bottom: 4.5rem;
 }
+
+.imgs {
+  padding-left: 20em;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: flex-end;
+}
