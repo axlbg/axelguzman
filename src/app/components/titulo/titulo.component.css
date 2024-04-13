@@ -23,3 +23,40 @@
   justify-content: space-evenly;
   padding: 3em;
 }
+
+.container {
+  width: 760px;
+  overflow: hidden;
+}
+
+.duplicado {
+  display: flex;
+  align-items: flex-start;
+  gap: 400px;
+  width: 500%;
+}
+
+.cloud {
+  animation: drift 9s linear infinite;
+}
+
+.cloud-two {
+  animation: drift-backwards 20s linear infinite;
+}
+
+@keyframes drift {
+  from {
+    transform: translateX(-750px);
+  }
+  to {
+    transform: translatex(800px);
+  }
+}
+@keyframes drift-backwards {
+  from {
+    transform: translateX(700px);
+  }
+  to {
+    transform: translatex(-2250px);
+  }
+}

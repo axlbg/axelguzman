@@ -42,6 +42,9 @@ a {
 .a {
   margin-right: 1.9rem;
 }
+.a :hover {
+  color: rgb(205, 225, 105);
+}
 
 .cp {
   overflow: hidden;

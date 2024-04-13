@@ -30,9 +30,16 @@
 }
 
 .imgs {
-  padding-left: 20em;
   width: 100%;
   display: flex;
   flex-flow: column;
   justify-content: flex-end;
+}
+
+.box {
+  width: 100%;
+  display: flex;
+  flex-flow: nowrap;
+  align-items: right;
+  justify-content: space-evenly;
 }

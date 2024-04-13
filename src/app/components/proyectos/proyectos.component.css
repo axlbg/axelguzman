@@ -24,6 +24,11 @@
   width: 43%;
 }
 
+.a :hover {
+  color: rgb(205, 225, 105);
+  cursor: pointer;
+}
+
 .item {
   padding-top: 1.5em;
 }
