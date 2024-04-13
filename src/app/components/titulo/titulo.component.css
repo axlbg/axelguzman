@@ -41,7 +41,7 @@
 }
 
 .cloud-two {
-  animation: drift-backwards 20s linear infinite;
+  animation: drift-backwards 25s linear infinite;
 }
 
 @keyframes drift {

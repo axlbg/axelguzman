@@ -29,7 +29,6 @@ a {
 
 .brand {
   width: fit-content;
-  text-transform: capitalize;
   overflow: hidden;
   display: inline-flex;
 }

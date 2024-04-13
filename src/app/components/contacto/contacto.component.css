@@ -42,6 +42,13 @@
   color: rgb(16, 18, 8);
 }
 
-.hover:hover {
-  font-size: 11.5rem;
+.img {
+  border-radius: 100%;
+  width: 270px;
+  height: 270px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
 }
