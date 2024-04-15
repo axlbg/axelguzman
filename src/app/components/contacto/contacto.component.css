@@ -53,3 +53,14 @@
   display: flex;
   justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .title {
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4em;
+  }
+  .img {
+    display: none;
+  }
+}

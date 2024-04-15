@@ -49,3 +49,18 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .carta-box {
+    margin: 50px;
+    width: 180px;
+    height: 210px;
+    position: relative;
+    perspective: 1000px;
+  }
+  .img {
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+  }
+}

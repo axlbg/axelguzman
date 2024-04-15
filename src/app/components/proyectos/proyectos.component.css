@@ -9,14 +9,6 @@
   justify-content: space-evenly;
 }
 
-.left {
-  padding-top: 2em;
-  width: 40%;
-}
-.right {
-  width: 50%;
-}
-
 .container {
   width: 43%;
 }
@@ -57,16 +49,24 @@
 }
 
 @media screen and (max-width: 920px) {
-  .box {
-  }
-
   .h1 {
     font-size: 6rem;
   }
 }
 
 @media screen and (max-width: 600px) {
+  .h1 {
+    font-size: 5.4rem;
+  }
+
+  .container {
+    width: 90%;
+  }
+
   .box {
-    background-color: aquamarine;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3em;
   }
 }
