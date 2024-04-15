@@ -83,5 +83,16 @@ h4 {
 }
 
 section {
-  padding: 6em;
+  padding: 6em 0;
+}
+
+.section {
+  width: 90%;
+  max-width: 1700px;
+  margin: auto;
+
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
 }

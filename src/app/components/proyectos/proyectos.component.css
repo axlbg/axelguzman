@@ -1,3 +1,7 @@
+.title {
+  width: 100%;
+}
+
 .box {
   display: flex;
   flex-flow: nowrap;
