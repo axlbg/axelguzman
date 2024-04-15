@@ -55,3 +55,18 @@
 .img {
   width: 95%;
 }
+
+@media screen and (max-width: 920px) {
+  .box {
+  }
+
+  .h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .box {
+    background-color: aquamarine;
+  }
+}

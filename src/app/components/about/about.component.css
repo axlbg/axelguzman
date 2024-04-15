@@ -43,3 +43,26 @@
   align-items: right;
   justify-content: space-evenly;
 }
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 80%;
+  }
+
+  .borderbox {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+    gap: 3em;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .box {
+    display: flex;
+    flex-flow: column;
+  }
+}

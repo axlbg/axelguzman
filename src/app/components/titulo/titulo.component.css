@@ -55,3 +55,21 @@
     transform: translatex(-2250px);
   }
 }
+
+@media screen and (max-width: 920px) {
+  .borderbox {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .container {
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    background-color: pink;
+  }
+}

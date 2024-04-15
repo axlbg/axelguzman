@@ -38,3 +38,14 @@
   width: 200px;
   height: 200px;
 }
+
+@media screen and (max-width: 920px) {
+  .circle {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 100%;
+  }
+}
