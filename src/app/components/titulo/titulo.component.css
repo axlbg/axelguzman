@@ -62,6 +62,7 @@
     flex-flow: column;
     align-items: flex-start;
     justify-content: space-evenly;
+    padding: 3em 2em;
   }
   .container {
     width: 600px;
