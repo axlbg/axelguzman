@@ -59,5 +59,16 @@ a {
 @media screen and (max-width: 600px) {
   .cp {
     display: none;
+    width: 0;
+  }
+  .navbar {
+    width: 100%;
+    margin: auto;
+  }
+  .box {
+    gap: 2rem;
+  }
+  .a {
+    margin: auto;
   }
 }

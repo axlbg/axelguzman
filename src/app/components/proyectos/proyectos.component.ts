@@ -14,7 +14,7 @@ export class ProyectosComponent {
   description = '';
   imagen = '';
   ngOnInit() {
-    this.clickNuevaFederacion();
+    this.clickAdudas();
   }
 
   clickNuevaFederacion() {
@@ -47,7 +47,7 @@ export class ProyectosComponent {
     this.github_href = 'https://github.com/axlbg/adudas';
     this.visit_href = '';
     this.description =
-      'Tienda deportiva con carrito de compras y más de 50 productos en catálogo, filtrar búsqueda por categorías o colección';
+      'Tienda deportiva con carrito de compras y más de 50 productos en catálogo JSON, responsive, filtros de búsqueda y más';
     this.imagen = '/assets/imgs/adudas.jpg';
   }
 }
