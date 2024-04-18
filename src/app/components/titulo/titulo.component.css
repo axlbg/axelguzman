@@ -29,6 +29,7 @@
   align-items: flex-start;
   gap: 400px;
   width: 500%;
+  overflow: hidden;
 }
 
 .cloud {
@@ -61,8 +62,10 @@
     display: flex;
     flex-flow: column;
     align-items: flex-start;
-    justify-content: space-evenly;
-    padding: 3em 2em;
+    padding: 2em 0 4em;
+    align-items: center;
+    width: 100%;
+    margin: auto;
   }
   .container {
     width: 600px;
@@ -71,13 +74,20 @@
 
 @media screen and (max-width: 600px) {
   .borderbox {
-    padding: 1em 1.5em 4em;
+    padding: 1em 0 4em;
     gap: 1em;
     align-items: center;
-    justify-content: center;
+    width: 100%;
+    margin: auto;
   }
   .container {
     width: 480px;
     padding-top: 2em;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .container {
+    width: 380px;
   }
 }
