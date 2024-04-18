@@ -71,7 +71,10 @@
 
 @media screen and (max-width: 600px) {
   .borderbox {
-    padding: 2em 1.5em 4em;
+    padding: 1em 1.5em 4em;
+    gap: 1em;
+    align-items: center;
+    justify-content: center;
   }
   .container {
     width: 480px;
